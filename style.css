@@ -1,0 +1,24 @@
+.v6_pl_content_biztips{
+    display: none;
+}
+
+.M_sc_foot{
+    display: none;
+}
+
+
+#doNotPostWeibo a{
+    height: 86px !important;
+    line-height: 1.6 !important;
+    text-align: left !important;
+    padding: 25px !important;
+    background: #f9f4cb !important;
+    color: #b1b1b1 !important;
+    font-size: 12px !important;
+}
+
+#imStupid{
+    text-align: center;
+    padding-bottom: 8px;
+    cursor: pointer;
+}
