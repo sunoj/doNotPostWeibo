@@ -2,13 +2,13 @@
   "manifest_version": 2,
   "name": "别发微博",
   "description": "移除掉危险的微博发布框，顺便移除一些广告",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
   "content_scripts": [
     {
       "matches": ["*://*.weibo.com/*"],
       "js": [
-        "zepto.min.js",
+        "jquery.js",
         "content_script.js"
       ],
       "css": [
